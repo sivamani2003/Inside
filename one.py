@@ -6,7 +6,7 @@ class Node:
 class CyclicLinkedList:
     def __init__(self):
         self.head = None
-
+        print("Mohith is gay")
     def append(self, data):
         new_node = Node(data)
         if not self.head:
